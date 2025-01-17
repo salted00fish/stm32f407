@@ -24,4 +24,4 @@ JLinkLog.txt
 *.map
 *.Administrator
 *.uvopt
-D:\桌面\stm32f407\.vscode
+.vscode/
