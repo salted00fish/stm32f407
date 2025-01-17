@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	///q
+	
 	while(1)
 	{
 		
