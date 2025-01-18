@@ -10,6 +10,7 @@ int main(void)
 	LED_Init();
 	Time6_Init();
 	My_I2C_Init();
+	
 	while(1)
 	{
 		

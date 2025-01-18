@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F40_41xxx,</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Lib\CMSIS\include;.\Lib\CMSIS\Sourse\arm;.\Lib\drive\inc;.\Lib\drive\src;..\stm31f407;.\Use;.\Lib\CMSIS\Sourse;.\Functional_Codes</IncludePath>
+              <IncludePath>.\Lib\CMSIS\include;.\Lib\CMSIS\Sourse\arm;.\Lib\drive\inc;.\Lib\drive\src;..\stm31f407;.\Use;.\Lib\CMSIS\Sourse;.\Functional_Codes;.\Sys</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -600,6 +600,31 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Sys</GroupName>
+          <Files>
+            <File>
+              <FileName>My_Time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Sys\My_Time.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Functional_Codes</GroupName>
+          <Files>
+            <File>
+              <FileName>I2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Functional_Codes\I2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Functional_Codes\LED.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>Use</GroupName>
           <Files>
             <File>
@@ -611,16 +636,6 @@
               <FileName>stm32f4xx_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Use\stm32f4xx_it.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Functional_Codes</GroupName>
-          <Files>
-            <File>
-              <FileName>I2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Functional_Codes\I2c.c</FilePath>
             </File>
           </Files>
         </Group>

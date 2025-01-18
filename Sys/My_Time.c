@@ -28,12 +28,14 @@ void Time6_Init(void)
 
 
 
+unsigned int Time_Cunt = 0;
 
 void TIM6_DAC_IRQHandler(void)
 {
 
     if(TIM_GetITStatus(TIM6,TIM_IT_Update) == SET)
     {
+        Time_Cunt++;
 
         TIM_ClearITPendingBit(TIM6,TIM_IT_Update);
     }
