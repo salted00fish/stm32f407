@@ -7,9 +7,11 @@
                 "d:\\桌面\\stm32f407\\Lib\\CMSIS\\Sourse\\arm",
                 "d:\\桌面\\stm32f407\\Lib\\drive\\inc",
                 "d:\\桌面\\stm32f407\\Lib\\drive\\src",
-                "d:\\桌面\\stm31f407",
+                "d:\\桌面\\stm32f407",
                 "d:\\桌面\\stm32f407\\Use",
+                "d:\\桌面\\stm32f407\\Sys",
                 "d:\\桌面\\stm32f407\\Lib\\CMSIS\\Sourse",
+                "d:\\桌面\\stm32f407\\Functional_Codes",
                 "E:\\keil\\core\\ARM\\ARMCC\\include",
                 "E:\\keil\\core\\ARM\\ARMCC\\include\\rw"
             ],
