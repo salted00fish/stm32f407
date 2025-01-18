@@ -1,5 +1,8 @@
 #include "my_time.h"
 
+unsigned int Time_Cunt = 0;
+
+
 void Time6_Init(void)
 {
     TIM_TimeBaseInitTypeDef TIM_InitStruct;
@@ -27,16 +30,17 @@ void Time6_Init(void)
 }
 
 
+unsigned int Get_Time_Count(void)
+{
+    return Time_Cunt;
+}
 
-unsigned int Time_Cunt = 0;
 
 void TIM6_DAC_IRQHandler(void)
 {
-
     if(TIM_GetITStatus(TIM6,TIM_IT_Update) == SET)
     {
         Time_Cunt++;
-
         TIM_ClearITPendingBit(TIM6,TIM_IT_Update);
     }
 }
